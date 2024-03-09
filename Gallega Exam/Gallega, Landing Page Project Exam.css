@@ -1,0 +1,202 @@
+body{
+    background: rgb(7, 15, 43);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right,rgb(7, 15, 43),rgb(27, 26, 85),rgb(83, 92, 145));
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 30px 0 0 ;
+    color: white;
+    z-index: 100;
+    margin-bottom: 30px;
+}
+
+li{
+    display: inline-block;
+}
+
+a{
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    transform: color 0.4s;
+}
+
+a:hover{
+    color: rgb(146, 144, 195);
+}
+
+h2{
+    margin-right: 730px;
+    font-size: 28px;
+    vertical-align: top;
+}
+
+span{
+    color: rgb(250, 163, 0);
+    font-style: italic;
+   font-size: 33px;
+}
+
+button{
+    border: none;
+    border-radius: 55px;
+    width: 110px;
+    height: 40px;
+    color: white;
+    font-size: 15px;
+    background: rgb(36, 49, 121);
+    transition: background 0.2s;
+    cursor: pointer;
+}
+
+button:hover{
+    background: rgb(84, 77, 226);
+}
+
+p{
+    color: white;
+    font-size: 18px;
+}
+
+.text{
+    margin: 130px 0 0 20px;
+    text-align: center;
+}
+
+.join{
+    font-size: 20px;
+}
+
+.container1{
+    background: rgb(27, 26, 85);
+    margin: 60px 10px 0 850px;
+    padding: 40px;
+    width: 330px;
+    height: 350px;
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(to left, #1B1A55,#535C91);
+    position: absolute; 
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+.email{
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 80px;
+    margin: 5px 0 ;
+    padding: 5px 0 0 20px;
+    font-size: 15px;
+    
+}
+
+.password{
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 80px;
+    margin: 5px 0 ;
+    padding: 5px 0 0 20px;
+    font-size: 15px;
+ 
+}
+
+.login{
+    width: 320px;
+    height: 50px;
+    border: none;
+    border-radius: 80px;
+    margin: 8px 0 0 0 ;
+    font-size: 15px;
+    background: rgb(36, 49, 121);
+    
+}
+
+.signup{
+    width: 270px;
+    height:40px;
+    border: none;
+    border-radius: 80px;
+    margin: 0 0 0 25px ;
+    font-size: 15px;
+    background: rgb(36, 49, 121);
+    
+}
+.log{
+    color: white;
+    font-size: 25px;
+    margin-left: 20px;
+    
+}
+
+.forgot{
+    color: white;
+    font-size: 15px;
+    margin-left: 30px;
+    
+    
+}
+
+.fr:hover{
+color: rgb(250, 163, 0);
+}
+
+.pic{
+    width: 100%;
+    margin: 0 10px 0 0 ;
+    display: inline-block;
+    border: none;
+    border-radius: 20px;
+    opacity: .1;
+
+}
+
+
+footer{
+    
+    height: 40px;
+    margin: 70px 0 20px 0;
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.fb{
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-right: 10px;
+   
+   
+}
+
+.insta{
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin: 0 10px 0 10px;
+    border-radius: 10px;
+}
+
+p1,p2,p3{
+    font: 15px;
+    color: white;
+}
